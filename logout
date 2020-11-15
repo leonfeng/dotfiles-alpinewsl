@@ -1,0 +1,4 @@
+history -c
+/bin/rm -f /opt/remote/.mysql_history
+/bin/rm -f /opt/remote/.history
+/bin/rm -f /opt/remote/.bash_history
