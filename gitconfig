@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Leon Feng
+	email = leon@feng.am
+[core]
+	editor = nvim -u NONE
+	autocrlf = false
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
