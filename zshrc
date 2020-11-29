@@ -84,7 +84,6 @@ plugins=(
 	node
 	npm
 	npx
-	tmux
 	yarn
 	zsh-autosuggestions
 )
@@ -117,11 +116,11 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls --color -F"
-alias gh="/mnt/c/Program\ Files\ \(x86\)/GitHub\ CLI/gh.exe"
 alias nat="natls"
 alias python="python3"
 alias pip="pip3"
-export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$(yarn global bin):$PATH"
+alias pypy3="pypy3.exe"
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$(yarn global bin):/mnt/c/ProgramData/chocolatey/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
